@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-08T20:26:03 IST" name="Default suite" finished-at="2023-11-08T20:26:22 IST" duration-ms="19652">
+    <groups>
+    </groups>
+    <test started-at="2023-11-08T20:26:03 IST" name="Default test" finished-at="2023-11-08T20:26:22 IST" duration-ms="19652">
+      <class name="testscripts.OrangeHrmLoginLogout">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testscripts.OrangeHrmLoginLogout@4ec4f3a0]" started-at="2023-11-08T20:26:03 IST" name="preCondition" finished-at="2023-11-08T20:26:16 IST" duration-ms="13705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="testLoginPage()[pri:1, instance:testscripts.OrangeHrmLoginLogout@4ec4f3a0]" started-at="2023-11-08T20:26:16 IST" name="testLoginPage" finished-at="2023-11-08T20:26:16 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method signature="testLogout()[pri:2, instance:testscripts.OrangeHrmLoginLogout@4ec4f3a0]" started-at="2023-11-08T20:26:16 IST" name="testLogout" finished-at="2023-11-08T20:26:22 IST" duration-ms="5382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testscripts.OrangeHrmLoginLogout@4ec4f3a0]" started-at="2023-11-08T20:26:22 IST" name="postCondition" finished-at="2023-11-08T20:26:22 IST" duration-ms="468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testscripts.OrangeHrmLoginLogout -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
