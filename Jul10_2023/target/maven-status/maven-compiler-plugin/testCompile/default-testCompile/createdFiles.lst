@@ -1,0 +1,6 @@
+testscripts\OrangeHrmLoginLogout.class
+webpages\HomePage.class
+webpages\EmployeePersonalDetailsPage.class
+webpages\LoginPage.class
+webpages\AddEmployeePage.class
+webpages\PIMhomePage.class
