@@ -22,7 +22,6 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.4.0</version>
-			<scope>test</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 		<dependency>
@@ -116,6 +115,11 @@
 			<artifactId>extentreports</artifactId>
 			<version>5.0.4</version>
 		</dependency>
+		 <dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.28</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
@@ -132,7 +136,7 @@
 					<!-- <includes> <exclude>**/*RunnerNew.java</exclude> </includes> -->
 					<testFailureIgnore>true</testFailureIgnore>
 					<suiteXmlFiles>
-						<suiteXmlFile>testng2.xml</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
